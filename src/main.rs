@@ -8,19 +8,17 @@ fn cp_cont(append: bool, content: &str, file_path: &str){
 }
 fn main() {
     let args: Vec<String> = env::args().collect();
-    // let content= fs::read_to_string(&args[1]).unwrap;
+    println!(std::env:fs::read_to_string(args[1]));
     // println!("{}", &args[2])
     // println!("{}", content);
-    // match args[2] {
-    //     
-    // }
-    let content = String::from("");
 
-    let mut iter = args.iter();
-    iter.next()
-    loop {
-        let elem = iter.next();
-        println!("{}", elem.unwrap());
+    // let content = String::from("");
+
+    // let mut iter = args.iter();
+    // iter.next()
+    // loop {
+    //     let elem = iter.next();
+    //     println!("{}", elem.unwrap());
         // match iter.next() {
         //     Some(inner) => elem,
         //     None        => _,
@@ -36,4 +34,3 @@ fn main() {
 
     }
 }
-
