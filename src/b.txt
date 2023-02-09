@@ -1,0 +1,4 @@
+/Users/dima/Programming/cat/target/debug/cat
+a.txt
+a.txt
+a.txt
